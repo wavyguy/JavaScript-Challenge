@@ -34,7 +34,6 @@ button.on("click", function() {
 // Function for User Input 
 var inputText = d3.select("#datetime");
 var button = d3.select("filter-btn");
-
 function changeHandler(){
     d3.event.preventDefault();
     console.log(inputText.property("value"));
